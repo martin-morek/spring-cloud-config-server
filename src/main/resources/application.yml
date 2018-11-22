@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@bitbucket.org:...
+  security:
+    user:
+      name: root
+      password: secret
